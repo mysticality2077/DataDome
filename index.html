@@ -10,7 +10,7 @@
         margin: 0;
         padding: 0;
         width: 200px;
-        background-color: white;
+        background-color: black;
         position: fixed;
         height: 100%;
         overflow: auto;
@@ -19,9 +19,10 @@
       /* Sidebar links */
       .sidebar a {
         display: block;
-        color: black;
+        color: white;
         padding: 16px;
         text-decoration: none;
+        background-color: black;
       }
       
       /* Active/current link */
@@ -61,10 +62,8 @@
           float: none;
         }
       }
-
-      /* Set all of the background colors to white and the text to black. For4yt - you can experiment with GIF background and "sponsor bars"*/
       body {
-        background-color: white;
+        background-color: gray;
         font-family: "Tahoma";
       }
 
@@ -77,8 +76,17 @@
       }
 
       p {
-        color: black;
+        color: white;
+        background-color: black;
+        border-radius: 25px;
+        padding: 12px;
       }
+      /* this is an attempt to center the footer tag */
+      footer {
+  margin-left: 200px; /* same as sidebar width so its not centered to the screen width itself*/
+  text-align: center;
+  padding: 10px;
+  }
     </style>
   </head>
   <body>
@@ -90,20 +98,16 @@
     <a href="project-logs.html">Projects (AUDIO & TEXT LOGS)</a>
     </div>
     
-    <!-- START OF DIV CENTERED BODY -->
+    <!-- keep evrything away from sidebar-->
     <div class="content">
     <center>
       <h1>
       Welcome to the DataDome! To hear a greeting, please use the audio button below!
       </h1>
       <p><i>A personal archive of a little bit of everything!</i></p>
-
-      <!-- NOTE: Use SAM for all spoken audio. This is a public repo, and I don't want any of our voices in it. TTS will be fine. -->
-      <!-- Send all audio files and images to mysticality2077 first; i need them compressed in specific formats and settings. Read FORMATS.txt for specifiers if you don't want to send them to me. -->
       <audio controls>
-      <source src="greeting.mp3"> <!-- SAM's audio greeting -->
+      <source src="greeting.mp3">
       </audio>
-      
     </center>
       
     <hr>
@@ -112,13 +116,8 @@
       I personally do not want to use my voice here on this because of privacy concerns, so you will have to tolerate hearing our lovely boy SAM speak.
     </p>
   </div>
-  <!-- END OF DIV CENTERED BODY -->
-    
     <footer>
-      <center>
         OWNED BY: MYSTICALITY2077 | LICENSED IN THE GNU GENERAL PUBLIC LICENSE 3.0
-      </center>
     </footer>
-    
   </body>
 </html>
