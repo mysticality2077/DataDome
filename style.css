@@ -71,11 +71,13 @@
       p {
         color: white;
         background-color: black;
-        padding: 12px;
+        padding: 1px 12px;
       }
       /* this is an attempt to center the footer tag */
       footer {
   margin-left: 200px; /* same as sidebar width so its not centered to the screen width itself*/
   text-align: center;
-  padding: 12px;
+  background-color: black;
+  color: white;
+  padding: 1px 12px;
   }
