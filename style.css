@@ -61,15 +61,15 @@
       }
 
       h1 {
-        color: black;
+        color: red;
       }
 
       h2 {
-        color: black;
+        color: orange;
       }
 
       p {
-        color: white;
+        color: yellow;
         background-color: black;
         padding: 1px 12px;
       }
@@ -79,5 +79,5 @@
   text-align: center;
   background-color: black;
   color: white;
-  padding: 1px 12px;
+  padding: 12px;
   }
