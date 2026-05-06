@@ -77,4 +77,5 @@
       footer {
   margin-left: 200px; /* same as sidebar width so its not centered to the screen width itself*/
   text-align: center;
+  padding: 12px;
   }
