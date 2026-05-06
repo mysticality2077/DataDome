@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: "MS Sans Serif"
 }
 
 h1 {
@@ -7,7 +8,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+}
+
 p {
   color: lightgreen;
-  font-family: "MS Sans Serif"
+  text-align: center;
 }
