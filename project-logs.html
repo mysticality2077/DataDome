@@ -35,5 +35,16 @@
       <p><i>You will find a history. Images, audio, and text; they all gather here. An archive of knowledge, not just of this, but other projects too.</i></p>
       <p><i>These are: THE PROJECT LOGS OF THE DATADOME</i></p>
     </center>
+
+    $.ajax({
+        async:false,
+        url: 'test.txt',
+        dataType: 'text',
+        success: function(data) 
+        {
+        $('element').append(data);
+            }
+        });
+    
   </body>
 </html>
