@@ -1,0 +1,20 @@
+IMAGES
+---------
+JPG/JPEG only
+~30%-50% quality
+
+VIDEOS
+---------
+MP4 only (use OBS to remux into other formats)
+Output resolution: ANY
+Bitrate: 1500kbps
+Just make sure that the videos stay very low in size.
+
+AUDIO
+---------
+Software: Audacity
+MP3 only
+Sample Rate: 8000 Hz
+Bit Rate Mode: Constant
+Quality: 24kbps - 16kbps (16kbps preferred for lower size)
+MONO AUDIO ONLY FOR SPEECH
