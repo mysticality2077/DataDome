@@ -5,3 +5,5 @@ The DataDome is a hobby website, and it will have just a ton of things in it, bu
 That's why you may hear audio or see video that is concerningly low-quality. It's just less space being taken up.
 
 Please enjoy it! I plan to have other repos for other stuff later on, so come back to them if you want!
+
+IGNORE THE SECOND LICENSE PAGE. I HAVE MOVED ALL MY LICENSING AND THINGS PERTAINING TO IT ONTO A SEPARATE WEB PAGE ON THE DATADOME.
